@@ -1,0 +1,49 @@
+# 🧠 Let's Explore the Data (Pandas Practice)
+# ----------------------------------------------------
+# Before analysis or visualization, it's important to explore the dataset.
+# Understand: rows, columns, data types, null values, structure, etc.
+
+import pandas as pd
+
+# 📥 Load Dataset (from Kaggle - Hotel Booking Dataset)
+data = pd.read_csv("hotel_bookings.csv")  # make sure file is in same directory or give full path
+
+# ✅ View top and bottom rows (to get a quick overview)
+print("🔹 Top 5 Rows:")
+print(data.head(5))
+
+print("\n🔹 Bottom 5 Rows:")
+print(data.tail(5))
+
+# ⚠️ For large datasets (like this hotel data), we can’t view all rows at once
+# So, head(n) and tail(n) helps to get the start/end portion of data
+
+# 🧱 Understand the structure of the dataset
+print("\n🔍 Structure of Dataset:")
+print(data.info())  # shows columns, data types, non-null values
+
+# 📏 Shape: Total number of rows and columns
+print("\n📐 Shape (rows, columns):")
+print(data.shape)
+
+# 📋 All column names in the dataset
+print("\n🗂️ Column Names:")
+print(data.columns)
+
+# 📂 Data types of each column
+print("\n📦 Data Types:")
+print(data.dtypes)
+
+# 🚨 Check for missing (null) values in each column
+print("\n⚠️ Null Values (column-wise):")
+print(data.isnull().sum())  # sum() gives count of missing values
+
+# 📊 Statistical summary for numerical columns
+print("\n📈 Summary Statistics:")
+print(data.describe())
+
+
+"""
+✨ Exploration is the first step toward Insight!
+Next, we’ll clean the data and prepare it for meaningful analysis.
+"""
