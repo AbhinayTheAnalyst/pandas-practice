@@ -4,6 +4,6 @@
 
 - [x] Introduction to Pandas
 - [x] Exploring Data
-- [ ] Handling Missing Values
+- [x] Handling Missing Values
 - [ ] GroupBy
 - [ ] Merge, Join, Concat
