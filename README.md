@@ -5,5 +5,7 @@
 - [x] Introduction to Pandas
 - [x] Exploring Data
 - [x] Handling Missing Values
-- [ ] GroupBy
-- [ ] Merge, Join, Concat
+- [x] GroupBy
+- [x] Merge, Join, Concat
+- [ ] compare dataframe
+- [ ] pivoting and melting data frame 
