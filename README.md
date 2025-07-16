@@ -7,5 +7,5 @@
 - [x] Handling Missing Values
 - [x] GroupBy
 - [x] Merge, Join, Concat
-- [ ] compare dataframe
-- [ ] pivoting and melting data frame 
+- [x] compare dataframe
+- [x] pivoting and melting data frame 
