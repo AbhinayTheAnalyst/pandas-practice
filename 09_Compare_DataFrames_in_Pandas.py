@@ -58,7 +58,16 @@ comparison_all = df1.compare(df2, keep_shape=True, keep_equal=True)
 print("\n🔍 Full Comparison (Keep equal = True):")
 print(comparison_all)
 
+
 '''
+🔁 Summary:
+
+Option	Kya Karta Hai
+
+compare()	Sirf changed values dikhata hai
+keep_shape=True	Full structure dikhata hai (unchanged rows = NaN)
+keep_equal=True	Same values bhi dikhata hai
+
 🧠 Learning Summary:
 - df1.compare(df2) → Shows only differences
 - keep_shape=True → Keeps full shape (same number of rows), but unmatched rows as NaN
